@@ -24,7 +24,7 @@ img {
 .greeting-login {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 .greeting-login input {
