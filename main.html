@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Momentum</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form id="greeting" class="hidden">
+      <input type="text" placeholder="Write Your name!" />
+      <button>Enter</button>
+    </form>
+    <div class="greeting">
+      <h1 id="greeting_text" class="hidden"></h1>
+    </div>
+    <div class="calender">
+      <h2 id="calender">0000/00/00</h2>
+      <h2 id="clock">00:00</h2>
+    </div>
+    <div class="form">
+      <div class="todo-form">
+        <form id="todo-form">
+          <div class="search-input">
+            <input type="text" />
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Write your To-do list</label>
+            <span class="glyphicon glyphicon-remove"></span>
+          </div>
+        </form>
+        <ul id="todolist"></ul>
+      </div>
+      <div class="memo-form">
+        <form id="memo-form">
+          <div class="search-input">
+            <input type="text" />
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Memo</label>
+            <span class="glyphicon glyphicon-remove"></span>
+          </div>
+        </form>
+        <ul id="memolist"></ul>
+      </div>
+    </div>
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/backgruonds.js"></script>
+    <script src="js/todolist.js"></script>
+    <script src="js/memolist.js"></script>
+    <script src="js/util.js"></script>
+    <script
+      src="https://kit.fontawesome.com/3d05c5e8d5.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
